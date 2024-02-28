@@ -30,13 +30,16 @@
       rel="stylesheet"
     />
     
-
+    <!-- https://www.w3schools.com/css/css3_gradients.asp -->
+    <!-- https://cssgradient.io/ -->
     <!-- Importing styles.css -->
     <link rel="stylesheet" href="/styles.css" />
 
     <title>Zomato Landing Page Clone</title>
   </head>
   <body>
+
+    <!-- This is for hero section -->
     <section class="hero_section">
       <header>
         <nav class="navbar">
@@ -63,6 +66,7 @@
       </div>
     </section>
 
+    <!-- This is for cards zomato offer section -->
     <section class="container we_offer">
       <div class="we_offer_card">
         <img src="./images/item1.png" alt="item 1">
@@ -90,6 +94,78 @@
         <div class="we_offer_content">
         <h2>Different foods</h2>
         <p>Look out for different varieties of food</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- This is Collection section -->
+    <section class="container collections">
+      <h1>Collections</h1>
+      <div class="sub_heading_container">
+        <span>Explore curated lists of top restaurants, cafes, pubs in Kharagpur based on trends</span>
+        <span>All collections in Kharagpur</span>
+      </div>
+      <div class="collections_card_container">
+        <div class="card card1">
+          <div class="overlay"></div>
+          <div class="content">
+            <h4>Live Cricket Screening</h4>
+            <span>56 Places</span>
+          </div>
+        </div>
+
+        <div class="card card2">
+          <div class="overlay"></div>
+          <div class="content">
+            <h4>Malnad Special</h4>
+            <span>12 Places</span>
+          </div>
+        </div>
+
+        <div class="card card3">
+          <div class="overlay"></div>
+          <div class="content">
+            <h4>newly opened Restaurants</h4>
+            <span>36 Places</span>
+          </div>
+        </div>
+
+        <div class="card card4">
+          <div class="overlay"></div>
+          <div class="content">
+            <h4>Trending clubs near me</h4>
+            <span>16 Places</span>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- This is for get the app section -->
+    <section class="container get_the_app">
+      <div class="semiContainer">
+        <div class="left">
+          <img src="./images/mobileBanner.png" alt="mobile banner">
+        </div>
+        <div class="right">
+          <h1>Get the Zomato App</h1>
+          <p>We will send you a link, open it and download in your phone</p>
+          <div class="radio_button_container">
+            <div>
+              <input type="radio" id="email" name="download_app">
+              <label for="email" style="font-size: 14px;">Email</label>
+            </div>
+            <div>
+              <input type="radio" id="phone" name="download_app">
+              <label for="phone" style="font-size: 14px;">Phone</label>
+            </div>
+          </div>
+          <div class="input_container">
+            <input type="text" placeholder="Email">
+            <button>Share App Link</button>
+            <!-- <input type="button" placeholder="Email"> this is wrong -->
+            
+          </div>
         </div>
       </div>
     </section>
